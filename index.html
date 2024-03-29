@@ -2,58 +2,284 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/asset/xicara-de-cafe.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <title>Portfólio | Website</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
-    
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-        </nav>
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-            <a><img src="https://readme-typing-svg.herokuapp.com?font=Krona+One&weight=500&size=25&duration=2500&pause=1000&color=3C2A21&random=false&width=431&lines=Seja+bem-vindo+ao+meu+site.;Estou+iniciando+no+Front-End;almejando+ser+Full+Stack.;+Welcome+to+my+website.;I'm+starting+in+Front-End;Aiming+to+be+a+Full+Stack+in+the+future" 
-                alt="Typing SVG" /></a>
-             <p class="apresentacao__conteudo__texto">Atualmente, estou focado em solidificar meus conhecimentos em HTML para
-                 estruturação, CSS para estilização e JavaScript para interatividade - as bases essenciais para qualquer 
-                 desenvolvedor web, e ponto de partida para a minha jornada full stack.
-                </p>
-                <p class="apresentacao__conteudo__texto">Estou emocionado em compartilhar alguns dos projetos que estou trabalhando. Eles não apenas consolidam 
-                    o que aprendi, mas também me desafiam a elevar meu nível de habilidade a cada interação.</p>
-                    <div class="apresentacao__link8">
-                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-                    <br> 
-                    <br>
-                    <div class="apresentacao__links">
-                    <a class="apresentacao__links__navegacao" href="https://github.com/sGabeDev" target="_blank">
-                    <img src="/asset/github.png">
-                    </a>
-                    <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/sgabriell/" target="_blank">
-                    <img src="/asset/linkedin.png">
-                    </a>
-                    <a class="apresentacao__links__navegacao" href="https://www.twitch.tv/gabeonly" target="_blank">
-                    <img src="/asset/twitch.png">
-                    </a>
-                    </div>
-        </section>
-        <img class="apresentacao__imagem" src="/asset/coffee.png" alt="Xicara de cafe">
-    </main>
 
-    <footer class="rodape">
-        <p>Desenvolvido por Gabriel, com parceria da Alura.</p>
-    </footer>
+<body>
+  <!--Header -->
+  <header>
+    <div class="logo"><span>Portfólio.</span></div>
+    <ul class="navlist">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+    </ul>
+
+    <div id="menu-icon" class="bx bx-menu"></div>
+  </header>
+
+  <!--Home -->
+  <section id="home" class="home">
+    <div class="home-content scroll-scale">
+      <h1>Olá! Eu sou o Gabriel</h1>
+      <div class="change-text">
+        <h3>
+          <span class="word">Front-end&nbsp;Developer</span>
+        </h3>
+      </div>
+      <br>
+      <p>
+        Desenvolvedor Frontend apaixonado com sólidos conhecimentos em HTML, CSS e JavaScript. Motivado para crescer na
+        indústria de tecnologia e contribuir com experiência prática.
+      </p>
+      <br>
+      <br>
+      <div class="btn-box">
+        <a target="_blank" href="https://docs.google.com/document/d/1C40EjEMz4oqmA1Uq1IbUbdsY5QPtux59cyQ5cj3t2Dc/edit?usp=sharing
+        " class="btn">Dowload CV</a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5511954345127&text=%20contate-me%20agora!"
+          class="btn">Hire Me
+          Now!</a>
+      </div>
+      <br>
+      <br>
+      <div class="social-icons">
+        <a target="_blank" href="https://www.linkedin.com/in/sgabriell/"><i class="bx bxl-linkedin"></i></a>
+        <a target="_blank" href="https://github.com/sGabrielv"><i class="bx bxl-github"></i></a>
+        <a target="_blank" href="https://discordapp.com/users/1195913296860151861"><i class="bx bxl-discord"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!--project -->
+  <section id="portfolio" class="portfolio">
+    <div class="main-text scroll-scale ">
+      <span>What i will do for you</span>
+      <h2>Latest Project</h2>
+    </div>
+
+    <div class="container">
+      <div class="fillter-buttons scroll-scale ">
+        <button class="btn" data-filter="all">All</button>
+        <button class="btn" data-filter=".product">Product</button>
+        <button class="btn" data-filter=".interacting">Interacting</button>
+        <button class="btn" data-filter=".web">Web App</button>
+      </div>
+
+      <div class="portfolio-gallery scroll-bottom ">
+        <div class="port-box mix all">
+          <div class="port-image">
+            <img src="/assets/3.jpg" alt="x">
+          </div>
+          <div class="port-content">
+            <h3>Graphic Desing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quod facere deserunt officiis,
+              excepturi magnam atque ab modi cupiditate aliquid, omnis minus qui, deleniti rerum
+              repudiandae incidunt? Nesciunt, quis eius.</p>
+            <a href="x"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix interacting all">
+          <div class="port-image">
+            <img src="/assets/1.jpg" alt="x">
+          </div>
+          <div class="port-content">
+            <h3>Graphic Desing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quod facere deserunt officiis,
+              excepturi magnam atque ab modi cupiditate aliquid, omnis minus qui, deleniti rerum
+              repudiandae incidunt? Nesciunt, quis eius.</p>
+            <a href="x"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="port-box mix web all">
+          <div class="port-image">
+            <img src="/assets/2.jpg" alt="x">
+          </div>
+          <div class="port-content">
+            <h3>Graphic Desing</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis quod facere deserunt officiis,
+              excepturi magnam atque ab modi cupiditate aliquid, omnis minus qui, deleniti rerum
+              repudiandae incidunt? Nesciunt, quis eius.</p>
+            <a href="x"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--About -->
+  <section id="about" class="about">
+    <div class="img-about scroll-scale">
+      <img src="/assets/about-me-pic2.png" alt="Jovem programador">
+      <div class="info-about1">
+        <span>2+</span>
+        <p>Moth of experience</p>
+      </div>
+      <div class="info-about2">
+        <span>4+</span>
+        <p>Project Complete</p>
+      </div>
+    </div>
+
+    <div class="about-content scroll-scale">
+      <span>Let me introduce myself</span>
+      <h2>About Me</h2>
+      <p>Desde o final do ano passado decidi mergulhar de cabeça no universo
+        do front-end, consciente de que isso é apenas o começo.Minha meta é me tornar um desenvolvedor full stack,
+        abrangendo tanto o front-end quanto o back-end.</p>
+
+      <div class="btn-box">
+        <a href="x" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Service -->
+  <section id="Services" class="services">
+    <div class="main-text scroll-scale">
+      <span>what i will do for you</span>
+      <h2>Our services</h2>
+    </div>
+
+    <div class="section-services scroll-scale">
+      <div class="service-box">
+        <i class="bx bxs-layer service-icon"></i>
+        <h3>Graphic Designer</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non assumenda enim natus debitis dignissimos quasi
+          corrupti doloremque molestiae, maxime magni porro expedita ipsa f
+          ugiat voluptates! Distinctio omnis repellendus officiis molestias.
+        </p>
+        <div class="btn-box service-btn">
+          <a href="x" class="btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <i class="bx bx-desktop service-icon"></i>
+        <h3>Graphic Designer</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non assumenda enim natus debitis dignissimos quasi
+          corrupti doloremque molestiae, maxime magni porro expedita ipsa f
+          ugiat voluptates! Distinctio omnis repellendus officiis molestias.
+        </p>
+        <div class="btn-box service-btn">
+          <a href="x" class="btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="service-box">
+        <i class="bx bx-code-alt service-icon"></i>
+        <h3>Graphic Designer</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non assumenda enim natus debitis dignissimos quasi
+          corrupti doloremque molestiae, maxime magni porro expedita ipsa f
+          ugiat voluptates! Distinctio omnis repellendus officiis molestias.
+        </p>
+        <div class="btn-box service-btn">
+          <a href="x" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--skills -->
+  <section id="skills" class="skills">
+    <div class="main-text scroll-scale ">
+      <span>Technical and professional</span>
+      <h2>My skills</h2>
+    </div>
+
+    <div class="skill-main">
+      <div class="skill-left scroll-scale ">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+          <div class="info">
+            <p>HTML</p>
+            <p>67%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>43%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>JavaScript</p>
+            <p>5%</p>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="skill-left scroll-scale ">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+          <div class="info">
+            <p>HTML</p>
+            <p>67%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>43%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+
+        <div class="skill-bar">
+          <div class="info">
+            <p>JavaScript</p>
+            <p>5%</p>
+          </div>
+          <div class="bar">
+            <span class="javascript"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--footer -->
+  <footer>
+    <p>Copyright &copy; 2024 by ParsCoder|| All right Reservd.</p>
+    <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+  </footer>
+  <script src="mixitup.min.js"></script>
+  <script src="script.js"></script>
 
 </body>
-     <!--O recurso de "typing-svg" foi fornecido porhttps://github.com/DenverCoder1/readme-typing-svg
-      Agradeço pelo trabalho excepcional-->
 
 </html>
