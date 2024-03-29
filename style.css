@@ -826,11 +826,11 @@ footer a i {
   }
 
   .home-content {
-    margin-top: 5rem;
+    margin-top: 6rem;
   }
 
   .social-icons {
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
 }
 
@@ -917,4 +917,6 @@ footer a i {
   .info-about3 {
     display: none;
   }
+
+
 }
