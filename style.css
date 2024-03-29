@@ -810,7 +810,7 @@ footer a i {
   }
 
   section {
-    padding: 50px 5%;
+    padding: 55px 2%;
   }
 
   .navlist a {
@@ -917,4 +917,6 @@ footer a i {
   .info-about3 {
     display: none;
   }
+
+
 }
