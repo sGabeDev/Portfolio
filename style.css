@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -15,7 +14,7 @@
   --hover-color: #000000;
   --bg-color: #ffffff;
   --secon-bg-color: #000000;
-  --big-font: 3.5rem;
+  --big-font: 3.0rem;
   --norma-font: 2rem;
   --neon-box-shadow: 0 0 .5rem #000000;
   --h2-font: 3rem;
@@ -120,7 +119,7 @@ section {
 }
 
 .change-text {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 600;
 }
 
@@ -862,7 +861,6 @@ footer a i {
   .navlist.open {
     top: 100%;
   }
-
 
   .home {
     grid-template-columns: 1fr;
