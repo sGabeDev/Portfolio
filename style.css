@@ -68,7 +68,7 @@ span {
 
 .navlist a:hover {
   color: var(--hover-color);
-  text-shadow: 0 0 10px rgba(88, 6, 6, 0.37),
+  text-shadow: 0 0 10px rgba(7, 6, 7, 0.37),
     0 0 20px rgba(255, 255, 255, 0.6),
     0 0 30px rgba(255, 255, 255, 0.6),
     0 0 40px rgba(255, 255, 255, 0.6),
@@ -154,7 +154,7 @@ section {
 }
 
 .home-content p {
-  color: #222831;
+  color: #000000;
   line-height: 1.6;
 }
 
@@ -242,6 +242,7 @@ a.btn:nth-child(2)::before {
 
 
 /* Style dos icons ---------------------------------------------------------------------------*/
+
 
 .social-icons {
   margin-top: 1rem;
@@ -353,7 +354,7 @@ a.btn:nth-child(2)::before {
 }
 
 .about-content h2 {
-  color: var(--hover-color);
+  color: var(--bg-color);
   font-weight: 750;
   font-size: var(--norma-font);
 }
@@ -365,8 +366,14 @@ a.btn:nth-child(2)::before {
 }
 
 .about-content p {
-  color: #fdfdfd;
-  font-weight: 300;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.info34 {
+  color: #ffffff;
+  font-weight: 400;
   margin-bottom: 1.5rem;
 }
 
@@ -419,7 +426,7 @@ a.btn:nth-child(2)::before {
 }
 
 .main-text span {
-  color: #222831;
+  color: #050202;
   font-size: .8rem;
   font-weight: 200;
   letter-spacing: 2px;
@@ -489,7 +496,7 @@ a.btn:nth-child(2)::before {
 
 
 .skills {
-  background: var(--secon-bg-color);
+  background: var(--bg-color);
 }
 
 .skill-main {
@@ -533,24 +540,24 @@ a.btn:nth-child(2)::before {
   height: 100%;
   position: absolute;
   left: 0;
-  background: var(--hover-color);
+  background: #11080e;
   border-radius: 25px;
-  box-shadow: var(--neon-box-shadow);
+  box-shadow: #ff02b3;
 
 }
 
 .skill-bar .bar .html {
-  width: 67%;
+  width: 35%;
   animation: html 2s;
 }
 
 .skill-bar .bar .css {
-  width: 43%;
+  width: 56%;
   animation: css 2s;
 }
 
 .skill-bar .bar .javascript {
-  width: 5%;
+  width: 8%;
   animation: javascript 2s;
 }
 
